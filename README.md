@@ -18,8 +18,6 @@ Unfortunately, once we had completed our initial analysis, it was brought to our
 
 ### Initial Results
 
-
-
 ### Post-Cheating Results
 
 Bulleted list addressing how each of the seven school district metrics was affected by the changes in the data
