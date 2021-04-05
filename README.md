@@ -98,14 +98,24 @@ You can see this summary below:
 
 #### Top and Bottom Performing School
 
+![Top Performing Schools (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/top_schools_post_nan.PNG)
+
+![Bottom Performing Schools (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/bottom_schools_post_nan.PNG)
+
 
 #### Outcomes vs School Size
+
+![Outcomes by School Size (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_size_post_nan.PNG)
 
 
 #### Outcomes vs School Spending (Per Student)
 
+![Outcomes by School Spending Per Student (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_spending_post_nan.PNG)
+
 
 #### Outcomes vs School Type
+
+![Outcomes by School Type (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_type_post_nan.PNG)
 
 
 ### Differences?
