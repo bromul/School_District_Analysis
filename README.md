@@ -98,38 +98,77 @@ You can see this summary below:
 
 #### Top and Bottom Performing School
 
+Again, we proceeded to split the district into its constituent schools and find the best:
+
+
 ![Top Performing Schools (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/top_schools_post_nan.PNG)
+
+
+and worst performing schools:
 
 ![Bottom Performing Schools (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/bottom_schools_post_nan.PNG)
 
+Interestingly, despite the changes we made lowering Thomas High School's overall passing percentage, removing the 9th graders' grades _did not_ affect the school rankings. This is to say, although there are slight differences in the calculated statistics, the Thomas High School is still the second best school in terms of overall passing percentages. This is also true for the worst performing schools, who did not move up or down the rankings either. 
 
 #### Outcomes vs School Size
 
+Although we removed the 9th graders from Thomas High School's calculations, the trend between school size and testing outcomes did not greatly change either:
+
 ![Outcomes by School Size (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_size_post_nan.PNG)
 
+There is still a negative correlation between school size and the overall passing rate. 
 
 #### Outcomes vs School Spending (Per Student)
+
+Additionally, we did not see any major changes between the relationship between a school's spending per student and the overall passing rate with the removal of Thomas High School's 9th graders:
 
 ![Outcomes by School Spending Per Student (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_spending_post_nan.PNG)
 
 
 #### Outcomes vs School Type
 
+Finally, the same can be said for the correlation between school type and overall passing rates. Despite Thomas High School being a charter school, taking away the potentially inflated grades did not reverse the trend we had seen previously:
+
 ![Outcomes by School Type (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_passing_by_type_post_nan.PNG)
 
 
-### Differences?
+### Differences Between the Initial and Secondary Analyses
 
-Bulleted list addressing how each of the seven school district metrics was affected by the changes in the data
+Although major trends did not change or reverse with the dismissal of grades from Thomas High School's 9th graders, there were still differences between the two datasets that should be noted:
 
-- How is the district summary affected?
-- How is the school summary affected?
-- How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
-- How does replacing the ninth-grade scores affect:
+
+-  Overall the District Summary scores generally stayed the same. However, there were slight differences:
+  - Average Math Score: 
+    - Initial: 79%
+    - Post-Changes: 78.9%
+  - Percent Passing Math:
+    - Initial: 75%
+    - Post-Changes: 74.8%
+  - Percent Passing Reading:
+    - Initial: 86%
+    - Post-Changes: 85.7%
+  - Overall Passing:
+    - Initial: 65%
+    - Post-Changes: 64.9%   
+- Despite Thomas High School's overall passing rate dropping from ~90.95% to ~90.63%, it maintained its position as the second best performing school.
+  - Interestingly, however, while most of Thomas High School's average scores and passing percentages slightly dropped with the removal of the 9th graders, its average reading score actually increased, from ~83.85% to ~83.9%.
+- Further, we found that the removal of the 9th graders from Thomas High School had a minimal effect on:
+  - Scores by School Spending
+    - Scores remained relatively stable whether or not we removed the 9th graders from Thomas High School from our analysis. This is true of both the scores themselves and the trends they revealed.
+  - Scores by School Size
+    -  Scores remained relatively stable whether or not we removed the 9th graders from Thomas High School from our analysis. This is true of both the scores themselves and the trends they revealed.
+  - Scores by School Type
+    - Scores remained relatively stable whether or not we removed the 9th graders from Thomas High School from our analysis. This is true of both the scores themselves and the trends they revealed.
   - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+    - Scores remained relatively stable whether or not we removed the 9th graders from Thomas High School from our analysis. This is true of both the scores themselves and the trends they revealed. The only major difference is that, in the second analysis, 9th graders at Thomas High School have their average grade replaced with NAN.
+
+We can see this clearly by comparing the _intial_ math and reading averages across grade levels:
+
+![Average Math Scores By Grade (Initial)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Pre%20NAN/avg_math_score_by_grade_pre_nan.PNG) ![Average Reading Scores By Grade (Initial)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Pre%20NAN/avg_reading_score_by_grade_pre_nan.PNG)
+
+with the math and reading averages across grade levels without the 9th graders:
+
+![Average Math Scores By Grade (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avge_math_score_by_grade_post_nan.PNG) ![Average Reading Scores By Grade (Post-Changes)](https://github.com/bromul/School_District_Analysis/blob/main/Resources/Post%20NAN/avg_reading_score_by_grade_post_nan.PNG)
 
 
 ## Summary
